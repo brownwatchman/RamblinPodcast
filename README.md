@@ -15,6 +15,10 @@ I created a fake podcast with the purpose of designing this website.
 
 Open each file and check out the comments (in gray) for more info.
 
+Previw of the Ramblin' Podcast site: 
+
+![Ramblin' Podcast](https://github.com/brownwatchman/RamblinPodcast/assets/71452680/c3a323fe-3676-4f6b-aaa5-010073269507)
+
 
 ## This site was built with Glitch!
 
@@ -22,4 +26,3 @@ Open each file and check out the comments (in gray) for more info.
 
 - Need more help? [Check out our Help Center](https://help.glitch.com/) for answers to any common questions.
 - Ready to make it official? [Become a paid Glitch member](https://glitch.com/pricing) to boost your app with private sharing, more storage and memory, domains and more.
-![Ramblin' Podcast](https://github.com/brownwatchman/RamblinPodcast/assets/71452680/c3a323fe-3676-4f6b-aaa5-010073269507)
