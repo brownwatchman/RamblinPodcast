@@ -1,6 +1,6 @@
 <!DOCTYPE html>
 <html lang="en">
-<head>
+  <head>
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <meta charset="utf-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1" />
@@ -12,26 +12,64 @@
 
     <!-- The website JavaScript file -->
     <script src="script.js" defer></script>
-</head>
-<body>
+  </head>
+  <body>
     <section class="banner">
-        <img
-          src="https://cdn.glitch.global/27d25102-7ebd-41dc-9f18-fe1de2dd0964/Untitled%20design.png?v=1690385694464"
-          alt="Ramblin' banner"
-        />
-        <div class="welcome">
-          <h2>Contact <br /><span>US!</span></h2>
+      <img
+        src="https://cdn.glitch.global/27d25102-7ebd-41dc-9f18-fe1de2dd0964/Untitled%20design.png?v=1690385694464"
+        alt="Ramblin' banner"
+      />
+      <div class="welcome">
+        <h2>Contact <br /><span>US!</span></h2>
+      </div>
+    </section>
+    <nav class="main-nav">
+      <ul>
+        <li><a href="index.html" alt="Main Page">Episodes</a></li>
+        <li><a href="video.html" alt="Video">Videos</a></li>
+        <li><a href="about.html" alt="About">About</a></li>
+        <li><a href="contact.html" alt="Contact Us">Contact Us</a></li>
+      </ul>
+    </nav>
+    <main>
+      <section class="join">
+        <h2>Contact Us</h2>
+        <p>
+          Got a question for us? Reach out to us by dropping us an email
+          <br />
+        </p>
+        <div class="container">
+          <form action="action_page.php">
+            <label></label>
+            <input
+              type="text"
+              id="fname"
+              name="firstname"
+              placeholder="First name.."
+            />
+            <label for="lname"></label>
+            <input
+              type="text"
+              id="lname"
+              name="lastname"
+              placeholder="Last name.."
+            />
+            <br />
+            <textarea
+              id="subject"
+              name="subject"
+              placeholder="Write something.."
+              rows="20"
+              cols="100"
+            ></textarea>
+            <br />
+            <input type="submit" value="Submit" class="submit" />
+          </form>
         </div>
       </section>
-      <nav class="main-nav">
-        <ul>
-          <li><a href="index.html" alt="Main Page">Episodes</a></li>
-          <li><a href="video.html" alt="Video">Videos</a></li>
-          <li><a href="about.html" alt="About">About</a></li>
-          <li><a href="contact.html" alt="Contact Us">Contact Us</a></li>
-        </ul>
-      </nav>
-      main>
+      <footer>
+        <p class="copyright">Copyright 2023 Ramblin' Podcast</p>
+      </footer>
     </main>
-</body>
+  </body>
 </html>
